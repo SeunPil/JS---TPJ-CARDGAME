@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css연결 -->
+    <!-- reset.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- js 연결 -->
+    <!-- app.js -->
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+      
+        <!-- 난이도 -->
+        <section class="container">
+            <div id="select">난이도를 선택해 주세요!</div>
+            <div class="level1 level">
+                <p>EASY</p>
+                <div>★☆☆</div>
+            </div>
+            <div class="level2 level">
+                <p>NORMAL</p>
+                <div>★★☆</div>
+            </div>
+            <div class=" level3 level">
+                <p>HARD</p>
+                <div>★★★</div>
+            </div>
+        </section>
+
+        <!-- 전체적css -->
+        <section class="main">
+            <h1 class="main-title">Card Game</h1>
+            <div class="cardwrapper">
+                <h2>
+                    <em id="point">색이 같은 카드</em>를 찾아 주세요!
+                </h2>
+
+                <div id="card-container">
+                </div>
+
+            </div>
+        </section>
+        <section class="result">
+            
+        <!-- 버튼 -->
+        </section>
+        <div class="buttons">
+            <div id="hint">
+                힌트 보기
+            </div>
+            <div id="view">정답 보기</div>
+            <div id="replay">다시 하기</div>
+        </div>
+    </div>
+</body>
+
+</html>
